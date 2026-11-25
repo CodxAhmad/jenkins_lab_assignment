@@ -17,6 +17,6 @@ B = np.random.rand(n, n)
 generation_end = time.perf_counter()
 
 print("\nMatrix generation completed.")
-print("Matrix A shape:", A.shape)
+print("Matrix A  Shape:", A.shape)
 print("Matrix B shape:", B.shape)
 print("Time before multiplication:", generation_end - total_start, "seconds")
